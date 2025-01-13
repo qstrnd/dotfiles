@@ -19,6 +19,7 @@ alias df='df -h' # Disk free in human readable format
 
 # git
 alias glogo="git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias gflush="git checkout . && git reset --hard && git clean -fd"
 
 # fzf
 alias fzfp="fzf --preview 'bat --color=always --style=numbers,changes,header,grid --line-range :500 {}'"
