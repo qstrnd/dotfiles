@@ -26,3 +26,9 @@ alias fzfp="fzf --preview 'bat --color=always --style=numbers,changes,header,gri
 alias hfzf="h | fzf"
 alias vfzf='vim -o `fzfp`'
 alias cfzf='code -o `fzfp`'
+
+# ai prompting
+
+ai() {
+    aichat -e "$*"
+}

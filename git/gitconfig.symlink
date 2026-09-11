@@ -39,3 +39,5 @@
 	helper = osxkeychain
 [init]
 	defaultBranch = main
+[user]
+	email = qstrnd@pm.me
